@@ -66,7 +66,7 @@ tiktoken==0.8.0
 tqdm==4.68.2
 typing-inspection==0.4.2
 typing_extensions==4.15.0
-urllib3==2.7.0
+urllib3==2.8.0
 uuid_utils==0.16.0
 websockets==15.0.1
 xxhash==3.7.0
