@@ -34,7 +34,7 @@ dependencies = [
     "matplotlib>=3.7.0,<3.10.0",  # <3.10: 3.10+ aarch64 wheels need glibc 2.27, AL2 has 2.26
     "seaborn>=0.12.0,<1.0.0",  # Pin to versions with pre-built wheels
     "contourpy>=1.0.1,<1.3.0",  # <1.3: 1.3+ aarch64 wheels need glibc 2.27
-    "pillow>=10.0.0,<12.3.0",  # <12.3: 12.3.0 ships no AL2_x86_64 wheel -> source build needs libjpeg; via matplotlib
+    "pillow>=10.0.0,<13.1.0",  # <12.3: 12.3.0 ships no AL2_x86_64 wheel -> source build needs libjpeg; via matplotlib
 ]
 
 [project.optional-dependencies]
